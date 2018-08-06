@@ -50,10 +50,23 @@ isEven(8)
 // Fahrenheit temperature as an argument and returns the
 // temperature in Celsius.
 
+function fahrenheitToCelsius (tempInF) {
+    return (tempInF - 32) / 1.8
+}
+
+fahrenheitToCelsius(95)
+
 
 // 6. Create a function called celsiusToFahrenheit that takes a
 // Celsius temperature as an argument and returns the
 // temperature in Fahrenheit.
+
+function celsiusToFahrenheit (tempInC) {
+    return (tempInC * 1.8) + 32
+}
+
+celsiusToFahrenheit(30) 
+
 
 // 7. Create a function called fahrenheitToKelvin that takes a
 // Fahrenheit temperature as an argument and returns the
@@ -61,6 +74,12 @@ isEven(8)
 // fahrenheitToCelsius function.
 // Absolute zero (0 K) is equivalent to −273.15 C.
 // 1 degree Kelvin equals 1 degree Celsius.
+
+function fahrenheitToKelvin (tempInF) {
+    return (fahrenheitToCelsius(tempInF)) + 273.15
+}
+
+fahrenheitToKelvin(78)
 
 // 8. Create a function called lesser that takes two numbers as
 // arguments and returns the lesser of them. This function should
