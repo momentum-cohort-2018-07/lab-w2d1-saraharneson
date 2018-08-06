@@ -23,12 +23,33 @@
 // return true if it is odd and false if it is not.
 
 
+function isOdd (numberToTest) {
+    if (numberToTest % 2 === 1 || numberToTest % 2 === -1) {
+    return true 
+    } else {
+    return false
+    }
+    }
+
+isOdd(7)
+
 // 5. Create a function called isEven that, given a number, will
 // return true if it is even and false if it is not.
+
+function isEven (numberToTest) {
+    if (numberToTest % 2 === 0) {
+    return true 
+    } else {
+    return false
+    }
+    }
+
+isEven(8)
 
 // 6. Create a function called fahrenheitToCelsius that takes a
 // Fahrenheit temperature as an argument and returns the
 // temperature in Celsius.
+
 
 // 6. Create a function called celsiusToFahrenheit that takes a
 // Celsius temperature as an argument and returns the
