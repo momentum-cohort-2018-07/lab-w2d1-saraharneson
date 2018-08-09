@@ -94,7 +94,6 @@ function lesser (firstNumber, secondNumber) {
     }
 
 
-
 // 9. Create a function called multigreeting that takes a name
 // and a language code and returns a version of "Hello, <name>!"
 // in the specified language. The supported languages and their
@@ -138,3 +137,4 @@ function howOld (birthDate, anotherDate) {
     var ageAtDate = anotherDate.getTime() - birthDate.getTime()   
     return (Math.floor(ageAtDate / 31557600000))
     }
+    howOld (1999, 08, 29) (2007, 09, 29)
